@@ -1,0 +1,123 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 50px;
+}
+
+
+
+/* Top part */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top .outer{
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    /* background-color: pink; */
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top .inner{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+
+/* Bottom part */
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -10px;
+}
+
+.bottom .outer{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: black;
+    /* background-color: lightblue; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom .inner{
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* j */
+
+/* Center part */
+
+.center{
+    background-color: pink;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hour{
+    height: 50px;
+    width: 10px;
+    background-color: green;
+
+    border-radius: 15px;
+    margin-top: 45px;
+    animation: clock_rotate infinite 3600s steps(60);
+}
+
+.minute{
+    height: 55px;
+    width: 8px;
+    background-color: blue;
+
+    border-radius: 15px;
+
+    transform-origin: top center;
+    animation: clock_rotate infinite 3600s steps(60);
+}
+
+.second{
+    height: 60px;
+    width: 6px;
+    background-color: red;
+
+    border-radius: 15px;
+    transform-origin: top center;
+    animation: clock_rotate infinite 60s steps(60);
+}
+
+/* Kanimations */
+@keyframes clock_rotate{
+    0%{
+        transform: rotate(-360deg);
+    }
+}
