@@ -1,0 +1,19 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "A clock Project made of purely HTML and CSS",
+  "main": "clock.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulrazakT/clock.git"
+  },
+  "author": "Abdul-razak Twaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulrazakT/clock/issues"
+  },
+  "homepage": "https://github.com/AbdulrazakT/clock#readme"
+}
